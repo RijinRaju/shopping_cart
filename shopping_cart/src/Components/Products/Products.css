@@ -1,0 +1,39 @@
+.products-main{
+    position: relative ;
+    padding: 100px;
+    border: 2px solid rgb(201, 199, 196);
+    border-radius: 20px;
+    border-color:rgb(17, 17, 17);
+    height: max-content;
+    width: max-content;
+
+    margin-left: 400px;
+    margin-top: 50px;
+}
+.pro-head{
+    text-align: center;
+}
+.pro-text{
+    width: 200px;
+}
+.pro-btn{
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: aliceblue;
+    background-color:#002f34;
+    cursor: pointer;
+    bottom: 20px;
+    width: 300px;
+    height: 40px;
+}
+.pro-btn:hover{
+    background-color:white;
+    color: black;
+    
+
+}
+.pro-img{
+    padding-left: 280px;
+    bottom: 150px;
+}

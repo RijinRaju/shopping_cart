@@ -1,0 +1,79 @@
+.moreView {
+      margin: 16px 16px 24px;
+      padding: 16px 16px 32px;
+      background-color: #ebeeef;
+      border-radius: 4px;
+    }
+    
+    .heading {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+    }
+    .heading :first-child {
+      font-size: 24px;
+      color: #002f34;
+    }
+    
+    .heading :last-child {
+      font-size: 14px;
+      color: #002f34;
+    }
+    
+ 
+    
+    .moreView .cards {
+      white-space: nowrap;
+      overflow-x: scroll;
+      overflow-y: hidden;
+    }
+    
+    .card {
+      margin-right: 15px;
+      padding: 13px;
+      max-width: 222px;
+      width: 222px;
+      height: 270px;
+      display: inline-block;
+      cursor: pointer;
+    }
+
+    
+    .card .image {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+       
+    }
+    .card:hover{
+          transform: scale(1.1);
+
+    }
+    
+    .card .image img {
+      height: 100px;
+      max-width: 100%;
+      max-height: 100%;
+      min-height: 100%;
+      text-align: center;
+    }
+    .card .content .rate {
+      margin-top: 10px;
+      font-size: larger;
+      font-weight: bold;
+    }
+    .card .content .name {
+      font-size: medium;
+    }
+    
+    .blockbusters {
+      margin: 16px 16px 24px;
+    }
+    
+    .blockbusters .heading span {
+      font-size: 24px;
+      color: #002f34;
+    }
+    

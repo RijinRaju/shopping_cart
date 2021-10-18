@@ -1,0 +1,16 @@
+
+.banner-img{
+  
+    width: 100%;
+    height: 600px;  
+
+}
+
+
+
+.fade_bottom{
+    height: 7.4rem;
+    background-image: linear-gradient(180deg,transparent,rgb(156, 144, 179),rgb(185, 185, 216));
+    position: relative;
+    bottom: 120px;
+}

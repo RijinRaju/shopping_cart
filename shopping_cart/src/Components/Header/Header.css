@@ -1,0 +1,65 @@
+.header{
+background-color: rgb(85, 82, 82);
+    height: 50px;
+    position: relative;
+}
+.site-logo{
+   height: 50px;
+   width: 50px;
+   border-radius: 200px;
+   border-bottom: 2px;
+   cursor: pointer;
+
+}
+.header-search{
+    position: relative;
+    bottom: 20px;
+    left: 200px;
+    width: 500px;
+    height: 20px;
+    border-style: hidden;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+.header-btn{
+    position: relative;
+    left: 200px;
+    bottom: 20px;
+    width: 6em;
+    height: 24px;
+      
+}
+.header-btn:hover{
+    transform: scale(1.1);
+}
+.header-log{
+    position: relative;
+        color: aliceblue;
+        left: 300px;
+        bottom: 20px;
+        cursor: pointer;
+}
+.header-cartlogo{
+   
+    height: 40px;
+    left: 410px;
+    bottom: 5px;
+    border-radius: 22px;
+    cursor: pointer;
+    position: relative;
+}
+.header-logout{
+    color: aliceblue;
+    position:relative;
+    left: 380px;
+    bottom: 20px;
+    border-radius: 10px;
+    width: 60px;
+    height:30px ;
+    cursor: pointer;
+}
+.header-sell:hover{
+    color: black;
+    background-color: aliceblue;
+}
